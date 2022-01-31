@@ -25,10 +25,10 @@ app.get('/', (req, res) => {
   if(todaysDish){
     res.json({todaysDish: todaysDish, price: price})
   }else{
-    res.send("Hei")
+    res.send("Error fetching data")
   }
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`App listening at http://localhost:${port}`)
 })
