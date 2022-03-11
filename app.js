@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const axios = require("axios");
 const port = process.env.PORT || 3000
-const URL = 'https://sio-prod.herokuapp.com/'
+const URL = 'https://www.sio.no/mat-og-drikke/_window/mat+og+drikke+-+dagens+middag?s=284&_=1639827212459'
 var cors = require('cors')
 
 var corsOptions = {
